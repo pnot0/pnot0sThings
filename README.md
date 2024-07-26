@@ -1,6 +1,6 @@
 # pnot0sThings
 **Content mod for Lethal Company, made for my friends**
-
+LethalLib is a required dependency for this mod to work
 
 ## List of items
 
