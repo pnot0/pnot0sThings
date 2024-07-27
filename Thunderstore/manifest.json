@@ -1,0 +1,12 @@
+{
+    "name": "pnot0sThings",
+    "author": "pnot0",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/pnot0/pnot0sThings",
+    "description": "Content mod for Lethal Company, made for my friends. Adds 7 scrap and 2 store items",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Evaisa-HookGenPatcher-0.0.5",
+		"Evaisa-LethalLib-0.11.2"
+    ]
+}
