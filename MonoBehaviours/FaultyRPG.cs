@@ -5,12 +5,6 @@ using Unity.Netcode;
 
 namespace pnot0sThings.ItemBehaviour
 {
-    //it does not show up on server side because only the person who used the item calls the effect,
-    //so if someone else saw someone using the item, they wouldn't be able to see it,
-    //therefore i need to create a serverrpc attribute so when someone uses the item,
-    //the effect can be visible both to the one who used and a third party
-    //https://github.com/EvaisaDev/LethalThings/blob/088d2870be3c8e1169424f43d2dde027cdd08f36/LethalThings/MonoBehaviours/Missile.cs#L58
-
 
     internal class FaultyRPG : GrabbableObject
     {
