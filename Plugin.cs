@@ -111,11 +111,11 @@ namespace pnot0sThings
 
             node.clearPreviousText = true;
             node.displayText = "Speed Coil";
-            Items.RegisterShopItem(speedCoilObject, null, null, node, 300);
+            Items.RegisterShopItem(speedCoilObject, null, null, node, 250);
 
             node.clearPreviousText = true;
             node.displayText = "Gravity Coil";
-            Items.RegisterShopItem(gravityCoilObject, null, null, node, 300);
+            Items.RegisterShopItem(gravityCoilObject, null, null, node, 200);
 
             //Harmony patch and network patch
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), "pnot0sthings");
